@@ -11,6 +11,23 @@ I built ScriptureChat because I noticed that generative AI could be incredibly p
 
 The idea came from seeing how AI was being used for various applications, but I hadn't seen anything focused on spiritual growth and Bible study. I thought - what if we could create an AI companion that actually understands biblical context and can help people dive deeper into their faith?
 
+## 📱 App Demo
+
+*Coming soon - I'll add a demo video showing the AI chat interface and key features*
+
+## 📸 Screenshots
+
+| Main Chat Interface | AI Conversation |
+|-------------------|-----------------|
+| <img src="images/04AA4B6D-B78D-4791-9F65-D5586C50E4CD_1_105_c.jpeg" alt="Main Chat Interface" width="300"> | <img src="images/F2E5B1D5-1A27-4437-B708-596AE4FDE4D1_1_105_c.jpeg" alt="AI Conversation" width="300"> |
+
+| Faith Customization | Settings & Profile |
+|-------------------|-------------------|
+| <img src="images/B07671C5-B643-438F-AE26-2392C6ADF3A9_1_105_c.jpeg" alt="Faith Customization" width="300"> | <img src="images/C9E74AD1-0040-4E09-A80A-F824503542DF_1_105_c.jpeg" alt="Settings & Profile" width="300"> |
+
+### App Icon
+<img src="assets/ScriptureChatIcon.png" alt="ScriptureChat App Icon" width="120">
+
 ## What It Does
 
 ScriptureChat is a mobile app that provides an AI-powered companion for Bible study and spiritual reflection. Users can have conversations about scripture, ask questions about faith, and get personalized guidance based on their denomination and spiritual journey.
@@ -92,6 +109,54 @@ To protect the core AI functionality and business logic, the following aren't in
    npm run android
    ```
 
+## Code Highlights
+
+### Key Implementation Areas
+
+#### **AI Chat System**
+- [`Screens/AI/ChatBot/Fleur.js`](./Screens/AI/ChatBot/Fleur.js) - Main AI chat interface with conversation handling
+- [`Context/FleurContext.js`](./Context/FleurContext.js) - Global state management for AI conversations
+- [`Components/Message.js`](./Components/Message.js) - Chat message components
+
+#### **Authentication & User Management**
+- [`Context/AuthContext.js`](./Context/AuthContext.js) - Firebase authentication with custom hooks
+- [`Screens/Login.js`](./Screens/Login.js) - User authentication flow
+- [`Screens/Settings.js`](./Screens/Settings.js) - User preferences and account management
+
+#### **Premium Features**
+- [`Screens/Paywall2.js`](./Screens/Paywall2.js) - Premium subscription interface
+- [`Components/useRevHook.js`](./Components/useRevHook.js) - Revenue tracking and subscription management
+- [`Screens/PromoCode.js`](./Screens/PromoCode.js) - Promotional code system
+
+#### **Faith Customization**
+- [`Screens/CustomizeFaith.js`](./Screens/CustomizeFaith.js) - Personalization settings
+- [`Components/ReflectionCount.js`](./Components/ReflectionCount.js) - Usage tracking
+
+## Features
+
+### 🤖 AI-Powered Bible Study
+- **Intelligent Chatbot** - Context-aware conversations about scripture and faith
+- **Personalized Responses** - Tailored to denomination, knowledge level, and spiritual focus
+- **Conversation Memory** - Persistent session context across interactions
+- **Scripture Integration** - Biblical references and theological context
+
+### 🎯 Faith Customization
+- **Denomination Settings** - Catholic, Protestant, Orthodox, and more
+- **Knowledge Level** - Beginner to advanced biblical understanding
+- **Spiritual Focus** - Personal growth, study, counseling, etc.
+- **Custom Preferences** - Personalized AI responses
+
+### 💰 Monetization
+- **Freemium Model** - Basic features free, premium features subscription-based
+- **Subscription Management** - Seamless billing and account management
+- **Promotional Codes** - Flexible pricing and marketing campaigns
+
+### 📱 User Experience
+- **Intuitive Design** - Clean, accessible interface
+- **Haptic Feedback** - Enhanced tactile interactions
+- **Offline Support** - Core features available without internet
+- **Cross-Platform** - Consistent experience across iOS and Android
+
 ## Why I Built This
 
 I've always been interested in how technology can enhance our spiritual lives. When I started exploring generative AI, I realized it could be perfect for creating meaningful faith-based conversations. Most AI applications were focused on productivity or entertainment, but I saw an opportunity to use this technology to help people grow spiritually.
@@ -107,10 +172,19 @@ Building ScriptureChat taught me a lot about:
 - Creating personalized user experiences
 - Handling sensitive topics with appropriate AI prompts
 
+## Key Achievements
+
+- **First AI Bible Study App on iOS** (March 2023)
+- **Pioneered AI Faith Category** - Established new app category standards
+- **Successfully Navigated App Store Review Process** - Set precedent for AI faith applications
+- **Commercial Viability Demonstrated** - Proved market demand for AI-powered spiritual guidance
+
 ## License
 
 This project is proprietary software. The code is provided for demonstration purposes only.
 
 ---
 
-**Built with React Native and a lot of curiosity about AI + faith** 
+**Built with React Native and a lot of curiosity about AI + faith**
+
+*Pioneering AI-powered Bible study since March 2023* 
