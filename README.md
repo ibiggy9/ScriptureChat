@@ -19,11 +19,11 @@ The idea came from seeing how AI was being used for various applications, but I 
 
 | Main Chat Interface | AI Conversation |
 |-------------------|-----------------|
-| <img src="images/04AA4B6D-B78D-4791-9F65-D5586C50E4CD_1_105_c.jpeg" alt="Main Chat Interface" width="300"> | <img src="images/F2E5B1D5-1A27-4437-B708-596AE4FDE4D1_1_105_c.jpeg" alt="AI Conversation" width="300"> |
+| <img src="images/img1.jpeg" alt="Main Chat Interface" width="300"> | <img src="images/img2.jpeg" alt="AI Conversation" width="300"> |
 
 | Faith Customization | Settings & Profile |
 |-------------------|-------------------|
-| <img src="images/B07671C5-B643-438F-AE26-2392C6ADF3A9_1_105_c.jpeg" alt="Faith Customization" width="300"> | <img src="images/C9E74AD1-0040-4E09-A80A-F824503542DF_1_105_c.jpeg" alt="Settings & Profile" width="300"> |
+| <img src="images/img4.jpeg" alt="Faith Customization" width="300"> | <img src="images/img3.jpeg" alt="Settings & Profile" width="300"> |
 
 ### App Icon
 <img src="assets/ScriptureChatIcon.png" alt="ScriptureChat App Icon" width="120">
